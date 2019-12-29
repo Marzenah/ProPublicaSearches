@@ -6,7 +6,7 @@ As a GUI plug in to a webpage, the ProPublica Search Engine can be utilized as a
   ![GUI image](GUI_run_image.png)
 
 ## Install ##
-To run this program you will need Python3 and the following modules: tkinter, requests, matplotlib, pytest, pandas, and numpy. All six modules can be installed using the provided requirements.txt file by calling a command:
+To run this program you will need Python3 and the following modules: tkinter, requests, matplotlib, pytest. All four modules can be installed using the provided requirements.txt file by calling a command:
 
 `pip install -r requirements.txt`
 
