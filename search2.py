@@ -1,5 +1,4 @@
 import json
-import sys
 import requests
 from search_modules.proPublicaAPI import *
 
@@ -19,7 +18,7 @@ def member_data(first, last):
 def results_string(first, last):
     results_dict = member_data(first, last)
     if results_dict == {}:
-        return "No such member in US Congress"
+        return "No such member in US Congress. Try again!"
     else:
         string_out = ''
         for key, value in results_dict.items():

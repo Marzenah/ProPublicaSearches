@@ -1,8 +1,6 @@
 from tkinter import*
 from tkinter import messagebox as msg
 from PIL import ImageTk, Image
-import numpy as np
-import matplotlib.pyplot as plt
 import search1
 import search2
 import search3
@@ -16,7 +14,7 @@ def main():
 
     # customizing the window container
     window.title('   Welcome to ProPublica Sample Searches')
-    window.iconbitmap('small_Logo.ico')
+    window.iconbitmap('GUI_small_Logo.ico')
     window.geometry('672x580')
 
     # getting the image to be inserted into GUI
@@ -89,7 +87,7 @@ class GuiApp():
         elif search_num == 1 or search_num == 2:
             results = Tk()
             results.title('  Search Results ')
-            results.iconbitmap('small_Logo.ico')
+            results.iconbitmap('GUI_small_Logo.ico')
             results.resizable(True, True)
             txt_box = Text(results)
             txt_box.pack()

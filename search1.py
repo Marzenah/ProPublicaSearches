@@ -1,15 +1,7 @@
 import json
-import sys
 import requests
 from search_modules.proPublicaAPI import *
 
-'''
-def get(url):
-    headers = {"X-API-KEY": "WWSGHLJjWxC2m9tznYILCKy1xtmkvnxxdo8nEBt8"}
-    url = "https://api.propublica.org/congress/v1/members" + url
-    data = requests.get(url,headers=headers).json()
-    return data['results']
-'''
 def search_state_reps(state_code):
     api = ProPublicaAPI() # new instance of ProPublicaAPI class
     state = state_code.upper()
