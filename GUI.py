@@ -43,16 +43,16 @@ class GuiApp():
         label_main = Label(self.window, pady = 5, text='Choose search type', font='Georgia 16 bold')
         label_main.grid(row=1, columnspan=3)
 
-        rd1 = Radiobutton(self.window,text='1: Get list of Congressional representatives for a state', variable=self.choice_var, value=1)
+        rd1 = Radiobutton(self.window,text='1: Get the list of current Congressional representatives for a given state', variable=self.choice_var, value=1)
         rd1.grid(row=2, column=0, padx=15, pady=18, sticky=W)
 
-        label1_search1 = Label(self.window, text="Enter two-letter code for state:   ")
+        label1_search1 = Label(self.window, text="Enter a two-letter postal code for the state:   ")
         label1_search1.grid(row=2, column=1, pady=18, sticky=E)
 
         entry_state = Entry(self.window, textvariable=self.state_code, justify=LEFT, bg="light grey")
         entry_state.grid(row=2, column=2, pady=18, sticky=W)
 
-        rd2 = Radiobutton(self.window, text='2: Search current representative by name', variable=self.choice_var, value=2)
+        rd2 = Radiobutton(self.window, text='2: Search current or past representative by name', variable=self.choice_var, value=2)
         rd2.grid(row=3, column=0, padx=15, pady=5, sticky=W)
 
         label1_search2 = Label(self.window, text="Enter last name:   ")
