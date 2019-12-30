@@ -10,7 +10,7 @@ To run this program you will need Python3 and the following modules: tkinter, re
 
 `pip install -r requirements.txt`
 
-You will also need to get your own ProPublica [key](https://www.propublica.org/datastore/api/propublica-congress-api) and save it in a config.txt file that is included as an empty file.
+You will also need to get your own ProPublica [key](https://www.propublica.org/datastore/api/propublica-congress-api) and save it in a key.txt file that is included as an empty file.
 
 ## Run ##
 This program is initiated by running the GUI.py file:
