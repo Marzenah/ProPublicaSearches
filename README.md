@@ -1,6 +1,6 @@
 # GUI for ProPublica Congress API Searches #
 
-This program implements a graphical user interface(GUI) to conduct three types of searches regarding members of the United States Congress using [the ProPublica Congress API](https://www.propublica.org/datastore/api/propublica-congress-api). 
+This program implements the graphical user interface(GUI) to conduct three types of searches regarding members of the United States Congress using [the ProPublica Congress API](https://www.propublica.org/datastore/api/propublica-congress-api). 
 The GUI is a convenient tool for fast gathering of specific and current information that ProPublica's API provides.
 
   ![GUI image](GUI_run_image.png)
