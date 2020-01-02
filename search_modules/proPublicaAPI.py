@@ -4,7 +4,7 @@ import requests
 
 
 class ProPublicaAPI():
-    ''' A class for interracting with ProPublica API. '''
+    ''' A class for interacting with ProPublica API. '''
 
     def get(self, url):
         ''' This method performs HTTP GET requests through ProPublica's API. '''
